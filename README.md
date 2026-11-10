@@ -40,10 +40,10 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
 
   | Tên nút | Thao tác | Chức năng chi tiết |
   | :--- | :--- | :--- |
-  | **Nghe lại** | Nhấn ngắn | Đọc lại giao dịch gần nhất (kèm lời dẫn phân biệt giao dịch mới) |
-  | **Tăng âm lượng** | Nhấn ngắn | Tăng âm lượng 1 mức, giới hạn mức tối đa |
-  | **Giảm âm lượng** | Nhấn ngắn | Giảm âm lượng 1 mức, có thể về im lặng |
-  | **Độ sáng** | Nhấn ngắn | Chuyển chế độ: Tự động (Theo BH1750) / Thủ công. Nếu đang ở chế độ thủ công thì nhấn giữ 3 giây để chuyển chế độ → Thấp → Vừa → Cao |
+  | **Nghe lại** | Nhấn 1 lần | Đọc lại giao dịch gần nhất (kèm lời dẫn phân biệt giao dịch mới) |
+  | **Tăng âm lượng** | Nhấn 1 lần | Tăng âm lượng 1 mức, giới hạn mức tối đa |
+  | **Giảm âm lượng** | Nhấn 1 lần | Giảm âm lượng 1 mức, có thể về im lặng |
+  | **Độ sáng** | Nhấn 1 lần | Chuyển chế độ: Tự động (Theo BH1750) / Thủ công. Nếu đang ở chế độ thủ công thì nhấn giữ 3 giây để chuyển chế độ → Thấp → Vừa → Cao |
   | **Thiết lập Wi-Fi** | Giữ 5 giây | Kích hoạt WebPortal để cấu hình mạng Wi-Fi bằng smartphone |
   | **Chế độ chờ** | Giữ 3 giây | Tắt màn hình và loa, duy trì kết nối nền để tiết kiệm pin |
   
