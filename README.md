@@ -11,7 +11,7 @@ Những vấn đề trên đặt ra nhu cầu xây dựng một thiết bị th�
 
 - **Thông báo tiền vào bằng giọng nói**: Phát số tiền đã nhận bằng tiếng Việt khi hệ thống tiếp nhận thông tin giao dịch, giúp người bán nhận biết mà không cần liên tục kiểm tra điện thoại.
 
-- **Hiển thị thông tin thanh toán**: Cung cấp mã QR và thông tin tài khoản trên màn hình phía trước; hiển thị giao dịch gần nhất và trạng thái thiết bị trên màn hình phía sau.
+- **Hiển thị thông tin thanh toán**: Cung cấp mã QR và thông tin tài khoản trên màn hình phía trước, hiển thị giao dịch gần nhất và trạng thái thiết bị trên màn hình phía sau.
 
 - **Theo dõi và điều khiển từ xa**: Sử dụng Node-RED Dashboard để xem lịch sử giao dịch, theo dõi trạng thái và điều chỉnh các chức năng của thiết bị từ máy tính hoặc điện thoại.
 
