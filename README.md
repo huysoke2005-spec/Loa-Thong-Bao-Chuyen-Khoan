@@ -99,6 +99,7 @@ Bên cạnh đó, đề tài xuất phát từ mong muốn vận dụng kiến t
    https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/overview
 
 3. **BH1750 Arduino Library:** Thư viện và ví dụ đọc dữ liệu cảm biến ánh sáng BH1750.
+
    https://github.com/claws/BH1750
    
 
