@@ -50,7 +50,7 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
 ### 2. Phần mềm
 
 - **Môi trường phát triển:** PlatformIO trên Visual Studio Code, sử dụng Arduino framework để lập trình ESP32 bằng C/C++.
-- **MQTT qua broker online:** Trao đổi thông tin giao dịch, trạng thái thiết bị và lệnh điều khiển giữa ESP32 với Node-RED.
+- **MQTT Broker:** Trao đổi thông tin giao dịch, trạng thái thiết bị và lệnh điều khiển giữa ESP32 với Node-RED.
 - **Node-RED:**
   - Tiếp nhận thông tin tiền vào từ dịch vụ thông báo giao dịch thông qua webhook.
   - Kiểm tra dữ liệu, lọc giao dịch phù hợp và kiểm tra mã giao dịch để hạn chế thông báo trùng.
