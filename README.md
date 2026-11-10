@@ -34,7 +34,7 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
   - Module MAX98357A: Nhận dữ liệu âm thanh từ ESP32 qua giao tiếp I2S và khuếch đại tín hiệu.
   - Loa 4 Ω, 3 W: Phát thông báo số tiền đã nhận bằng tiếng Việt.
 - **Cảm biến ánh sáng BH1750:** Đo độ rọi môi trường để tự động điều chỉnh độ sáng màn hình.
-- **Sáu nút nhấn phía sau:** Nghe lại, tăng âm lượng, giảm âm lượng, điều chỉnh độ sáng, thiết lập Wi-Fi và chuyển chế độ chờ.
+- **Sáu nút nhấn 4 chân:** Nghe lại, tăng âm lượng, giảm âm lượng, điều chỉnh độ sáng, thiết lập Wi-Fi và chuyển chế độ chờ.
 - **Khối nguồn:** Pin LiPo 3.7 V kết hợp mạch sạc, bảo vệ pin và nâng áp 5 V để cấp nguồn cho thiết bị.
 - **Linh kiện phụ trợ:** Tụ lọc nguồn, dây nối, đầu cắm, bo lắp ráp và vỏ thiết bị.
 
