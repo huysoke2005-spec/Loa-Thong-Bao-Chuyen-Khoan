@@ -8,6 +8,7 @@
 Ngày nay, thanh toán bằng mã QR đã trở thành phương thức phổ biến tại các cửa hàng, quán ăn và các điểm bán lớn nhỏ nhờ sự tiện lợi và nhanh chóng. Tuy nhiên, việc xác nhận giao dịch vẫn gặp một số khó khăn như người bán phải thường xuyên kiểm tra điện thoại, dễ bỏ sót thông báo khi đông khách và mất thời gian đối chiếu số tiền nhận được. Việc khách hàng đưa ảnh chụp giao dịch cũng chưa đủ để xác nhận tiền đã vào tài khoản của người bán.
 
 Những vấn đề trên đặt ra nhu cầu xây dựng một thiết bị thông báo chuyển khoản tự động với các chức năng:
+
 **Thông báo tiền vào bằng giọng nói**: Phát số tiền đã nhận bằng tiếng Việt khi hệ thống tiếp nhận thông tin giao dịch, giúp người bán nhận biết mà không cần liên tục kiểm tra điện thoại.
 
 **Hiển thị thông tin thanh toán**: Cung cấp mã QR và thông tin tài khoản trên màn hình phía trước; hiển thị giao dịch gần nhất và trạng thái thiết bị trên màn hình phía sau.
