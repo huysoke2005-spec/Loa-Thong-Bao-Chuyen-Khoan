@@ -83,9 +83,8 @@ Bên cạnh đó, đề tài xuất phát từ mong muốn vận dụng kiến t
 | 1. ESP32 Devkit V1 | 2. TFT ILI9341 2.4 inch | 3. OLED I2C 0.96 inch |
 | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/17ba51f1-1d18-4823-a3a3-2cb74f1aa5f9" width="160" alt="ESP32"> | <img src="https://github.com/user-attachments/assets/5249714f-3d61-497d-b4d7-77f7870ee992" width="160" alt="TFT"> | <img src="https://github.com/user-attachments/assets/62dae4ce-b2a9-485a-bfdf-4c52fd858194" width="160" alt="OLED"> |
-
-| **4. BH1750 GY-302** | **5. Module MAX98357A*** | **6. Loa 4Ω 3W** |
-| <img src="https://github.com/user-attachments/assets/3459dceb-3d8b-4f52-9411-4d49602839ef" width="160" alt="BH1750"> | <img src="https://github.com/user-attachments/assets/dd238bcb-eb12-488d-a36b-2bf195c1104b" width="160" alt="MAX"> | <img src="https://github.com/user-attachments/assets/084d9cc6-7cc1-44ea-a327-5b5a5fc529cc" width="160" alt="LOA"> | 
+| **4. BH1750 GY-302** | **5. Module MAX98357A** | **6. Loa 4Ω 3W** |
+| <img src="https://github.com/user-attachments/assets/3459dceb-3d8b-4f52-9411-4d49602839ef" width="160" alt="BH1750"> | <img src="https://github.com/user-attachments/assets/dd238bcb-eb12-488d-a36b-2bf195c1104b" width="160" alt="MAX"> | <img src="https://github.com/user-attachments/assets/084d9cc6-7cc1-44ea-a327-5b5a5fc529cc" width="160" alt="LOA"> |
 | **7. Nút nhấn 4 chân** | **8. Pin Lipo 803040 3.7V** | **9. Module sạc và nâng áp** |
 | <img src="https://github.com/user-attachments/assets/7d6f8bfd-e6b3-4ed7-a559-c39d2e9015da" width="160" alt="NutNhan"> | <img src="https://github.com/user-attachments/assets/b38e3ca1-2a59-471b-bdf8-c57aa26e55a4" width="160" alt="PinLipo"> | <img src="https://github.com/user-attachments/assets/f7fb4c8e-550d-43f1-b7aa-7e10588a164a" width="160" alt="Machsac"> |
   
