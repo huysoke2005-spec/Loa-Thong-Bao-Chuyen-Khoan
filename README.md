@@ -26,7 +26,7 @@ Bên cạnh đó, đề tài xuất phát từ mong muốn vận dụng kiến t
 
 ### 1. Phần cứng
 
-- **Vi điều khiển:** ESP32-WROOM-32, board 30 chân; xử lý dữ liệu, kết nối Wi-Fi và điều khiển các ngoại vi.
+- **Vi điều khiển:** ESP32-WROOM-32, board 30 chân, xử lý dữ liệu, kết nối Wi-Fi và điều khiển các ngoại vi.
 - **Hệ thống hiển thị:**
   - Màn hình TFT ILI9341 2.4 inch phía trước: Hiển thị mã QR thanh toán, tên người nhận và ngân hàng.
   - Màn hình OLED I2C 0.96 inch phía sau: Hiển thị giao dịch gần nhất, trạng thái kết nối và mức âm lượng.
