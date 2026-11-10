@@ -90,6 +90,16 @@ Bên cạnh đó, đề tài xuất phát từ mong muốn vận dụng kiến t
   
 ## Tài liệu tham khảo
 
+## Tài liệu tham khảo
+
+1. **Giới thiệu loa thông báo chuyển khoản TingBox Pro:** Tham khảo chức năng, cách bố trí màn hình, loa và các nút điều khiển.  
+   https://quang.vn/review-tingbox-pro-loa-chuyen-khoan-tot-nhat-2025
+
+2. **Hướng dẫn sử dụng module khuếch đại âm thanh MAX98357A:** Tham khảo nguyên lý hoạt động, kết nối I2S và đấu nối loa.  
+   https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/overview
+
+3. **BH1750 Arduino Library:** Thư viện và ví dụ đọc dữ liệu cảm biến ánh sáng BH1750.
+   https://github.com/claws/BH1750
 
 
 
