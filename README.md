@@ -15,7 +15,7 @@ Những vấn đề trên đặt ra nhu cầu xây dựng một thiết bị th�
 
 - **Theo dõi và điều khiển từ xa**: Sử dụng Node-RED Dashboard để xem lịch sử giao dịch, theo dõi trạng thái và điều chỉnh các chức năng của thiết bị từ máy tính hoặc điện thoại.
 
-- **Thích ứng với điều kiện sử dụng**: Điều chỉnh độ sáng theo cảm biến ánh sáng, hỗ trợ các nút thao tác trực tiếp và sử dụng nguồn pin để thuận tiện bố trí tại quầy.
+- **Thích ứng với điều kiện sử dụng**: Điều chỉnh độ sáng theo cảm biến ánh sáng, hỗ trợ các nút nhấn thao tác trực tiếp và sử dụng nguồn pin để thuận tiện bố trí tại quầy.
 
 ### 2. Nguồn cảm hứng cho dự án
 Ý tưởng xuất phát từ nhu cầu vừa phục vụ khách hàng vừa theo dõi thanh toán của người bán. Khi cửa hàng đông khách, việc phải dừng công việc để mở điện thoại kiểm tra từng giao dịch gây bất tiện. Một thiết bị thông báo bằng giọng nói kết hợp hiển thị số tiền có thể hỗ trợ người bán tiếp nhận thông tin nhanh chóng và đối chiếu thanh toán thuận tiện hơn.
