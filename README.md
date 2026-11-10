@@ -78,6 +78,8 @@ Bên cạnh đó, đề tài xuất phát từ mong muốn vận dụng kiến t
 
 ## Sơ đồ khối
 
+<img width="504" height="246" alt="SoDoKhoi" src="https://github.com/user-attachments/assets/2b20461f-f076-44ef-8a02-8cdf1a1f11fb" />
+
 ## Linh kiện dự kiến
 
 | 1. ESP32 Devkit V1 | 2. TFT ILI9341 2.4 inch | 3. OLED I2C 0.96 inch |
@@ -101,6 +103,7 @@ Bên cạnh đó, đề tài xuất phát từ mong muốn vận dụng kiến t
    
 
    
+
 
 
 
