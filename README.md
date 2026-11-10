@@ -43,7 +43,7 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
   | **Nghe lại** | Nhấn 1 lần | Đọc lại giao dịch gần nhất (kèm lời dẫn phân biệt giao dịch mới) |
   | **Tăng âm lượng** | Nhấn 1 lần | Tăng âm lượng 1 mức, giới hạn mức tối đa |
   | **Giảm âm lượng** | Nhấn 1 lần | Giảm âm lượng 1 mức, có thể về im lặng |
-  | **Độ sáng** | Nhấn 1 lần | Chuyển chế độ: Tự động (Theo BH1750) / Thủ công. Nếu đang ở chế độ thủ công thì nhấn giữ 3 giây để chuyển chế độ → Thấp → Vừa → Cao |
+  | **Độ sáng** | - Nhấn 1 lần<br>- Nhấn giữ 3 giây | - Chuyển đổi chế độ: Tự động (theo BH1750) / Thủ công<br>- Thay đổi mức sáng: Thấp → Vừa → Cao (ở chế độ thủ công) |
   | **Thiết lập Wi-Fi** | Giữ 5 giây | Kích hoạt WebPortal để cấu hình mạng Wi-Fi bằng smartphone |
   | **Chế độ chờ** | Giữ 3 giây | Tắt màn hình và loa, duy trì kết nối nền để tiết kiệm pin |
   
