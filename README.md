@@ -38,7 +38,7 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
 - **Linh kiện phụ trợ:** Tụ lọc nguồn, dây nối, đầu cắm, bo lắp ráp và vỏ thiết bị.
 - **Sáu nút nhấn 4 chân:** Nghe lại, tăng âm lượng, giảm âm lượng, điều chỉnh độ sáng, thiết lập Wi-Fi và chuyển chế độ chờ.
 
-  | Tên nút | Thao tác | Chức năng chi tiết |
+  | Tên nút | Thao tác | Chức năng |
   | :--- | :--- | :--- |
   | **Nghe lại** | Nhấn 1 lần | Đọc lại giao dịch gần nhất |
   | **Tăng âm lượng** | Nhấn 1 lần | Tăng âm lượng 1 mức, giới hạn mức tối đa |
