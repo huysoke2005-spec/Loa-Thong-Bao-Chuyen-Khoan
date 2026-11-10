@@ -18,7 +18,7 @@ Những vấn đề trên đặt ra nhu cầu xây dựng một thiết bị th�
 - **Thích ứng với điều kiện sử dụng**: Điều chỉnh độ sáng theo cảm biến ánh sáng, hỗ trợ các nút nhấn và sử dụng nguồn pin để thuận tiện bố trí tại quầy.
 
 ### 2. Nguồn cảm hứng cho dự án
-Ý tưởng xuất phát từ nhu cầu vừa phục vụ khách hàng vừa theo dõi thanh toán của người bán. Khi cửa hàng đông khách, việc phải dừng công việc để mở điện thoại kiểm tra từng giao dịch gây bất tiện. Một thiết bị thông báo bằng giọng nói kết hợp hiển thị số tiền có thể hỗ trợ người bán tiếp nhận thông tin nhanh chóng và đối chiếu thanh toán thuận tiện hơn.
+Ý tưởng xuất phát từ nhu cầu vừa phục vụ khách hàng vừa theo dõi thanh toán của người bán. Khi cửa hàng đông khách, việc phải dừng công việc để mở điện thoại kiểm tra từng giao dịch sẽ gây bất tiện. Một thiết bị thông báo bằng giọng nói kết hợp hiển thị số tiền có thể hỗ trợ người bán tiếp nhận thông tin nhanh chóng và đối chiếu thanh toán thuận tiện hơn.
 
 Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu cầu thực tế vận dụng kiến thức hệ thống nhúng và IoT. Việc kết hợp ESP32, màn hình, loa và cảm biến với giao thức MQTT và Node-RED tạo cơ hội tìm hiểu một hệ thống hoàn chỉnh, từ tiếp nhận dữ liệu qua Internet đến xử lý, hiển thị và điều khiển phần cứng. Qua đó, em hướng tới tự thiết kế và lập trình một mô hình có tính ứng dụng, phù hợp với phạm vi học phần và có khả năng mở rộng.
 
