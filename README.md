@@ -34,10 +34,19 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
   - Module MAX98357A: Nhận dữ liệu âm thanh từ ESP32 qua giao tiếp I2S và khuếch đại tín hiệu.
   - Loa 4 Ω, 3 W: Phát thông báo số tiền đã nhận bằng tiếng Việt.
 - **Cảm biến ánh sáng BH1750:** Đo độ rọi môi trường để tự động điều chỉnh độ sáng màn hình.
-- **Sáu nút nhấn 4 chân:** Nghe lại, tăng âm lượng, giảm âm lượng, điều chỉnh độ sáng, thiết lập Wi-Fi và chuyển chế độ chờ.
 - **Khối nguồn:** Pin LiPo 3.7 V kết hợp mạch sạc, bảo vệ pin và nâng áp 5 V để cấp nguồn cho thiết bị.
 - **Linh kiện phụ trợ:** Tụ lọc nguồn, dây nối, đầu cắm, bo lắp ráp và vỏ thiết bị.
+- **Sáu nút nhấn 4 chân:** Nghe lại, tăng âm lượng, giảm âm lượng, điều chỉnh độ sáng, thiết lập Wi-Fi và chuyển chế độ chờ.
 
+  | Tên nút | Thao tác | Chức năng chi tiết |
+  | :--- | :--- | :--- |
+  | **Nghe lại** | Nhấn ngắn | Đọc lại giao dịch gần nhất (kèm lời dẫn phân biệt giao dịch mới)[cite: 4] |
+  | **Tăng âm lượng** | Nhấn ngắn | Tăng âm lượng 1 mức, giới hạn mức tối đa[cite: 4] |
+  | **Giảm âm lượng** | Nhấn ngắn | Giảm âm lượng 1 mức, có thể về im lặng[cite: 4] |
+  | **Độ sáng** | Nhấn ngắn | Chuyển chế độ: Tự động (theo BH1750) → Thấp → Vừa → Cao[cite: 4] |
+  | **Thiết lập Wi-Fi** | Giữ 5 giây | Kích hoạt WebPortal để cấu hình mạng Wi-Fi bằng smartphone[cite: 4] |
+  | **Chế độ chờ** | Giữ 3 giây | Tắt màn hình và loa, duy trì kết nối nền để tiết kiệm pin[cite: 4] |
+  
 ### 2. Phần mềm
 
 - **Môi trường phát triển:** PlatformIO trên Visual Studio Code, sử dụng Arduino framework để lập trình ESP32 bằng C/C++.
