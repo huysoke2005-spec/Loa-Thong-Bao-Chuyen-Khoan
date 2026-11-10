@@ -98,7 +98,7 @@ Bên cạnh đó, đề tài xuất phát từ mong muốn vận dụng kiến t
 2. **Hướng dẫn sử dụng module khuếch đại âm thanh MAX98357A:** Tham khảo nguyên lý hoạt động, kết nối I2S và đấu nối loa.  
    https://robojax.com/tutorial_view.php?id=938&lang=vi
 
-3. **Hướng dẫn sử dụng cảm biến ánh sáng BH1750 :** Thư viện và ví dụ đọc dữ liệu cảm biến ánh sáng BH1750.                           
+3. **Hướng dẫn sử dụng cảm biến ánh sáng BH1750 :** Đọc dữ liệu cảm biến ánh sáng BH1750.                           
    https://dongthoigian.net/esp32-do-anh-sang-bh1750-oled/
    
 
