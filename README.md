@@ -3,8 +3,8 @@
 > **Giảng viên hướng dẫn:** TS. Nguyễn Anh Tuấn  
 > **Sinh viên thực hiện:** Lã Quốc Huy - 23001609
 
-1. Đặt vấn đề
-a. Nhu cầu thực tế
+## Đặt vấn đề
+### 1. Nhu cầu thực tế
 Ngày nay, thanh toán bằng mã QR đã trở thành phương thức phổ biến tại các cửa hàng, quán ăn và các điểm bán lớn nhỏ nhờ sự tiện lợi và nhanh chóng. Tuy nhiên, việc xác nhận giao dịch vẫn gặp một số khó khăn như người bán phải thường xuyên kiểm tra điện thoại, dễ bỏ sót thông báo khi đông khách và mất thời gian đối chiếu số tiền nhận được. Việc khách hàng đưa ảnh chụp giao dịch cũng chưa đủ để xác nhận tiền đã vào tài khoản của người bán.
 
 Những vấn đề trên đặt ra nhu cầu xây dựng một thiết bị thông báo chuyển khoản tự động với các chức năng:
@@ -16,11 +16,11 @@ Những vấn đề trên đặt ra nhu cầu xây dựng một thiết bị th�
 
 **Thích ứng với điều kiện sử dụng**: Điều chỉnh độ sáng theo cảm biến ánh sáng, hỗ trợ các nút thao tác trực tiếp và sử dụng nguồn pin để thuận tiện bố trí tại quầy.
 
-b. Nguồn cảm hứng cho dự án
+### 2. Nguồn cảm hứng cho dự án
 Ý tưởng xuất phát từ nhu cầu vừa phục vụ khách hàng vừa theo dõi thanh toán của người bán. Khi cửa hàng đông khách, việc phải dừng công việc để mở điện thoại kiểm tra từng giao dịch gây bất tiện. Một thiết bị thông báo bằng giọng nói kết hợp hiển thị số tiền có thể hỗ trợ người bán tiếp nhận thông tin nhanh chóng và đối chiếu thanh toán thuận tiện hơn.
 
 Bên cạnh đó, đề tài xuất phát từ mong muốn vận dụng kiến thức hệ thống nhúng và IoT để giải quyết một nhu cầu thực tế. Việc kết hợp ESP32, màn hình, loa và cảm biến với giao thức MQTT và Node-RED tạo cơ hội tìm hiểu một hệ thống hoàn chỉnh, từ tiếp nhận dữ liệu qua Internet đến xử lý, hiển thị và điều khiển phần cứng. Qua đó, em hướng tới tự thiết kế và lập trình một mô hình có tính ứng dụng, phù hợp với phạm vi học phần và có khả năng mở rộng.
-2. Nội dung chính
+
 ## Nội dung chính
 
 ### 1. Phần cứng
