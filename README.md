@@ -87,8 +87,6 @@ Bên cạnh đó, đề tài xuất phát từ mong muốn vận dụng kiến t
 | <img src="https://github.com/user-attachments/assets/3459dceb-3d8b-4f52-9411-4d49602839ef" width="250" alt="BH1750"> | <img src="https://github.com/user-attachments/assets/dd238bcb-eb12-488d-a36b-2bf195c1104b" width="250" alt="MAX"> | <img src="https://github.com/user-attachments/assets/084d9cc6-7cc1-44ea-a327-5b5a5fc529cc" width="250" alt="LOA"> |
 | **7. Nút nhấn 4 chân** | **8. Pin Lipo 803040 3.7V** | **9. Module sạc và nâng áp** |
 | <img src="https://github.com/user-attachments/assets/7d6f8bfd-e6b3-4ed7-a559-c39d2e9015da" width="250" alt="NutNhan"> | <img src="https://github.com/user-attachments/assets/b38e3ca1-2a59-471b-bdf8-c57aa26e55a4" width="250" alt="PinLipo"> | <img src="https://github.com/user-attachments/assets/f7fb4c8e-550d-43f1-b7aa-7e10588a164a" width="250" alt="Machsac"> |
-  
-## Tài liệu tham khảo
 
 ## Tài liệu tham khảo
 
