@@ -88,6 +88,8 @@ Bên cạnh đó, đề tài xuất phát từ mong muốn vận dụng kiến t
 | **7. Nút nhấn 4 chân** | **8. Pin Lipo 803040 3.7V** | **9. Module sạc và nâng áp** |
 | <img src="https://github.com/user-attachments/assets/7d6f8bfd-e6b3-4ed7-a559-c39d2e9015da" width="250" alt="NutNhan"> | <img src="https://github.com/user-attachments/assets/b38e3ca1-2a59-471b-bdf8-c57aa26e55a4" width="250" alt="PinLipo"> | <img src="https://github.com/user-attachments/assets/f7fb4c8e-550d-43f1-b7aa-7e10588a164a" width="250" alt="Machsac"> |
   
+## Tài liệu tham khảo
+
 
 
 
