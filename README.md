@@ -78,6 +78,13 @@ Bên cạnh đó, đề tài xuất phát từ mong muốn vận dụng kiến t
 
 ## Sơ đồ khối
 
+## Linh kiện dự kiến
+
+| 1. ESP32 Devkit V1 | 2. Cảm biến HC-SR04 | 3. Mạch I2S MAX98357A | 4. Loa toàn dải 3W |
+| :---: | :---: | :---: | :---: |
+| <img src="blob:https://www.facebook.com/989b8a3a-3af6-4023-abf3-80deeb1cad19" width="160" alt="ESP32"> | <img src="URL_ANH_HCSR04" width="160" alt="HC-SR04"> | <img src="URL_ANH_MAX98357A" width="160" alt="MAX98357A"> | <img src="URL_ANH_LOA" width="160" alt="Loa 3W"> |
+| **5. Cảm biến quang trở LDR** | **6. Màn hình TFT ST7789** | **7. Màn hình OLED SSD1306** | **8. Cụm nút bấm cơ học** |
+| <img src="URL_ANH_LDR" width="160" alt="LDR"> | <img src="URL_ANH_ST7789" width="160" alt="ST7789"> | <img src="URL_ANH_OLED" width="160" alt="OLED"> | <img src="URL_ANH_NUTBAM" width="160" alt="Buttons"> |
 
   
 
