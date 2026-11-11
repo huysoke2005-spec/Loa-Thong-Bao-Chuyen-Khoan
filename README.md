@@ -43,7 +43,7 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
   | **Nghe lại** | Nhấn 1 lần | Đọc lại giao dịch gần nhất |
   | **Tăng âm lượng** | Nhấn 1 lần | Tăng âm lượng 1 mức, giới hạn mức tối đa |
   | **Giảm âm lượng** | Nhấn 1 lần | Giảm âm lượng 1 mức, có thể về im lặng |
-  | **Độ sáng** | - Nhấn 1 lần | 	Chuyển đổi lần lượt các chế độ: Tự động → Thấp → Vừa → Cao |
+  | **Độ sáng** | Nhấn 1 lần | 	Chuyển đổi lần lượt các chế độ: Tự động → Thấp → Vừa → Cao |
   | **Thiết lập Wi-Fi** | Nhấn giữ 5 giây | Kích hoạt cổng cấu hình web để thiết lập mạng Wi-Fi bằng điện thoại |
   | **Bật/Tắt** | Nhấn 1 lần | Chuyển giữa hoạt động và chế độ chờ. Khi chờ, tắt màn hình và ngừng phát âm thanh nhưng vẫn duy trì kết nối Wi-Fi/MQTT để tiếp nhận dữ liệu. |
   
