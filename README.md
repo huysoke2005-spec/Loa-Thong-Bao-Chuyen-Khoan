@@ -81,7 +81,7 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
   - Nút độ sáng chuyển lần lượt giữa chế độ tự động và ba mức sáng thủ công: thấp, vừa, cao.
   - Nút thiết lập Wi-Fi mở cổng cấu hình mạng bằng điện thoại khi được nhấn giữ trong 5 giây.
   - Nút bật/tắt chuyển thiết bị giữa hoạt động và chế độ chờ. Khi chờ, màn hình và âm thanh được tắt nhưng kết nối Wi-Fi/MQTT vẫn được duy trì; thiết bị không ngắt nguồn hoàn toàn. 
-  - Trong chế độ chờ, thiết bị vẫn tiếp nhận và lưu thông tin giao dịch nhưng không phát thông báo. Khi nhấn nút bật/tắt lần nữa, thiết bị trở lại hoạt động và hiển thị giao dịch gần nhất, không tự động phát lại các giao dịch nhận trong thời gian chờ. Người dùng có thể nhấn Nghe lại để nghe giao dịch gần nhất.
+  - Trong chế độ chờ, thiết bị vẫn tiếp nhận và lưu thông tin giao dịch nhưng không phát thông báo. Khi nhấn nút bật/tắt lần nữa, thiết bị trở lại hoạt động và hiển thị giao dịch gần nhất, không tự động phát lại các giao dịch nhận trong thời gian chờ. Người dùng có thể nhấn nút nghe lại để nghe giao dịch gần nhất.
 
 - **Giám sát và sử dụng từ xa:**
   - Dữ liệu giao dịch và trạng thái được cập nhật trên Dashboard để người bán theo dõi bằng trình duyệt.
