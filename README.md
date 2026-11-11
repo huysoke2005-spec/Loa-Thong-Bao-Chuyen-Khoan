@@ -67,7 +67,7 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
 - **Thanh toán và thông báo giao dịch:**
   - Khách hàng quét mã QR trên màn hình phía trước để thực hiện chuyển khoản.
   - Khi dịch vụ thông báo giao dịch ghi nhận tiền vào, dữ liệu được gửi đến Node-RED để xử lý và chuyển qua broker MQTT đến ESP32.
-  - ESP32 cập nhật màn hình và phát số tiền đã nhận bằng tiếng Việt. Việc quét QR không tự kích hoạt thông báo nhận tiền.
+  - Khi thiết bị ở chế độ hoạt động, ESP32 cập nhật màn hình và phát số tiền đã nhận bằng tiếng Việt. Việc quét QR không tự kích hoạt thông báo nhận tiền.
   - Các giao dịch đến liên tiếp được đưa vào hàng đợi để phát lần lượt; mã giao dịch được kiểm tra nhằm hạn chế phát trùng.
 
 - **Hiển thị và điều chỉnh độ sáng:**
