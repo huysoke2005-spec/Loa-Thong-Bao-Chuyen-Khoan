@@ -43,14 +43,14 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
   | **Nghe lại** | Nhấn 1 lần | Đọc lại giao dịch gần nhất |
   | **Tăng âm lượng** | Nhấn 1 lần | Tăng âm lượng 1 mức, giới hạn mức tối đa |
   | **Giảm âm lượng** | Nhấn 1 lần | Giảm âm lượng 1 mức, có thể về im lặng |
-  | **Độ sáng** | - Nhấn 1 lần<br>- Nhấn giữ 3 giây | - Chuyển đổi chế độ: Tự động (theo BH1750) / Thủ công<br>- Thay đổi mức sáng: Thấp → Vừa → Cao (ở chế độ thủ công) |
+  | **Độ sáng** | - Nhấn 1 lần | 	Chuyển đổi lần lượt các chế độ: Tự động → Thấp → Vừa → Cao |
   | **Thiết lập Wi-Fi** | Giữ 5 giây | Kích hoạt WebPortal để cấu hình mạng Wi-Fi bằng smartphone |
   | **Bật/Tắt** | Nhấn 1 lần | Bật/Tắt màn hình và loa, duy trì kết nối nền để tiết kiệm pin |
   
 ### 2. Phần mềm
 
 - **Môi trường phát triển:** PlatformIO trên Visual Studio Code, sử dụng Arduino framework để lập trình ESP32 bằng C/C++.
-- **MQTT Broker online:** Trao đổi thông tin giao dịch, trạng thái thiết bị và lệnh điều khiển giữa ESP32 với Node-RED.
+- **MQTT Broker online:** Trung gian trao đổi thông tin giao dịch, trạng thái thiết bị và lệnh điều khiển giữa ESP32 với Node-RED qua Internet.
 - **Node-RED:**
   - Tiếp nhận thông tin tiền vào từ dịch vụ thông báo giao dịch thông qua webhook.
   - Kiểm tra dữ liệu, lọc giao dịch phù hợp và kiểm tra mã giao dịch để hạn chế thông báo trùng.
