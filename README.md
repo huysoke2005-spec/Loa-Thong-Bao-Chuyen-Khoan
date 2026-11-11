@@ -34,7 +34,7 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
   - Module MAX98357A: Nhận dữ liệu âm thanh từ ESP32 qua giao tiếp I2S và khuếch đại tín hiệu.
   - Loa 4 Ω, 3 W: Phát thông báo số tiền đã nhận bằng tiếng Việt.
 - **Cảm biến ánh sáng BH1750:** Đo độ rọi môi trường để tự động điều chỉnh độ sáng màn hình.
-- **Khối nguồn:** Pin LiPo 3.7 V kết hợp mạch sạc, bảo vệ pin và nâng áp 5 V để cấp nguồn cho thiết bị.
+- **Khối nguồn:** Pin LiPo 803040 3.7V 1000mAh kết hợp mạch sạc, bảo vệ pin và nâng áp 5V để cấp nguồn cho thiết bị.
 - **Linh kiện phụ trợ:** Tụ lọc nguồn, dây nối, đầu cắm, bo lắp ráp và vỏ thiết bị.
 - **Các nút nhấn:** Nghe lại, tăng âm lượng, giảm âm lượng, điều chỉnh độ sáng, thiết lập Wi-Fi và chuyển chế độ chờ.
 
@@ -44,8 +44,8 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
   | **Tăng âm lượng** | Nhấn 1 lần | Tăng âm lượng 1 mức, giới hạn mức tối đa |
   | **Giảm âm lượng** | Nhấn 1 lần | Giảm âm lượng 1 mức, có thể về im lặng |
   | **Độ sáng** | - Nhấn 1 lần | 	Chuyển đổi lần lượt các chế độ: Tự động → Thấp → Vừa → Cao |
-  | **Thiết lập Wi-Fi** | Giữ 5 giây | Kích hoạt WebPortal để cấu hình mạng Wi-Fi bằng smartphone |
-  | **Bật/Tắt** | Nhấn 1 lần | Bật/Tắt màn hình và loa, duy trì kết nối nền để tiết kiệm pin |
+  | **Thiết lập Wi-Fi** | Nhấn giữ 5 giây | Kích hoạt cổng cấu hình web để thiết lập mạng Wi-Fi bằng điện thoại |
+  | **Bật/Tắt** | Nhấn 1 lần | Chuyển giữa hoạt động và chờ; khi chờ, tắt hiển thị và ngừng phát âm thanh nhưng vẫn duy trì kết nối Wi-Fi/MQTT |
   
 ### 2. Phần mềm
 
@@ -53,8 +53,9 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
 - **MQTT Broker online:** Trung gian trao đổi thông tin giao dịch, trạng thái thiết bị và lệnh điều khiển giữa ESP32 với Node-RED qua Internet.
 - **Node-RED:**
   - Tiếp nhận thông tin tiền vào từ dịch vụ thông báo giao dịch thông qua webhook.
-  - Kiểm tra dữ liệu, lọc giao dịch phù hợp và kiểm tra mã giao dịch để hạn chế thông báo trùng.
-  - Lưu lịch sử và gửi thông tin đến ESP32 qua MQTT.
+  - Kiểm tra thông tin xác thực của yêu cầu, cấu trúc dữ liệu, tài khoản nhận và loại giao dịch tiền vào.
+  - Kiểm tra mã giao dịch để hạn chế thông báo trùng.
+  - Lưu lịch sử giao dịch và gửi thông tin đến ESP32 qua MQTT.
 - **Node-RED Dashboard:**
   - Hiển thị giao dịch gần nhất, lịch sử và tổng số tiền đã ghi nhận trong khoảng thời gian lựa chọn.
   - Theo dõi trạng thái kết nối, độ rọi, âm lượng và chế độ hoạt động.
@@ -77,8 +78,10 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
 - **Điều khiển tại thiết bị:**
   - Nút nghe lại phát thông tin giao dịch gần nhất, có lời dẫn để phân biệt với giao dịch mới.
   - Hai nút âm lượng cho phép tăng hoặc giảm mức âm thanh.
-  - Nút thiết lập Wi-Fi mở chế độ cấu hình mạng bằng điện thoại.
-  - Nút chế độ chờ tắt hiển thị và ngừng phát loa nhưng vẫn duy trì kết nối để cập nhật dữ liệu; không ngắt nguồn thật.
+  - Nút độ sáng chuyển lần lượt giữa chế độ tự động và ba mức sáng thủ công: thấp, vừa, cao.
+  - Nút thiết lập Wi-Fi mở cổng cấu hình mạng bằng điện thoại khi được nhấn giữ trong 5 giây.
+  - Nút chế độ chờ tắt hiển thị và ngừng phát âm thanh nhưng vẫn duy trì kết nối Wi-Fi/MQTT, không ngắt nguồn thật.
+  - Trong chế độ chờ, thiết bị vẫn tiếp nhận và lưu thông tin giao dịch nhưng không phát thông báo. Khi trở lại hoạt động, màn hình hiển thị giao dịch gần nhất; các giao dịch nhận trong thời gian chờ không tự động được phát lại. Người dùng có thể nhấn Nghe lại để nghe giao dịch gần nhất.
 
 - **Giám sát và sử dụng từ xa:**
   - Dữ liệu giao dịch và trạng thái được cập nhật trên Dashboard để người bán theo dõi bằng trình duyệt.
