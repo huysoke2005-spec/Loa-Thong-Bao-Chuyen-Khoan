@@ -36,7 +36,7 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
 - **Cảm biến ánh sáng BH1750:** Đo độ rọi môi trường để tự động điều chỉnh độ sáng màn hình.
 - **Khối nguồn:** Pin LiPo 803040 3.7V 1000mAh kết hợp mạch sạc, bảo vệ pin và nâng áp 5V để cấp nguồn cho thiết bị.
 - **Linh kiện phụ trợ:** Tụ lọc nguồn, dây nối, đầu cắm, bo lắp ráp và vỏ thiết bị.
-- **Các nút nhấn:** Nghe lại, tăng âm lượng, giảm âm lượng, điều chỉnh độ sáng, thiết lập Wi-Fi và chuyển chế độ chờ.
+- **Các nút nhấn:** Nghe lại, tăng âm lượng, giảm âm lượng, điều chỉnh độ sáng, thiết lập Wi-Fi và bật/tắt.
 
   | Tên nút | Thao tác | Chức năng |
   | :--- | :--- | :--- |
@@ -45,7 +45,7 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
   | **Giảm âm lượng** | Nhấn 1 lần | Giảm âm lượng 1 mức, có thể về im lặng |
   | **Độ sáng** | - Nhấn 1 lần | 	Chuyển đổi lần lượt các chế độ: Tự động → Thấp → Vừa → Cao |
   | **Thiết lập Wi-Fi** | Nhấn giữ 5 giây | Kích hoạt cổng cấu hình web để thiết lập mạng Wi-Fi bằng điện thoại |
-  | **Bật/Tắt** | Nhấn 1 lần | Chuyển giữa hoạt động và chờ; khi chờ, tắt hiển thị và ngừng phát âm thanh nhưng vẫn duy trì kết nối Wi-Fi/MQTT |
+  | **Bật/Tắt** | Nhấn 1 lần | Chuyển giữa hoạt động và chế độ chờ. Khi chờ, tắt màn hình và ngừng phát âm thanh nhưng vẫn duy trì kết nối Wi-Fi/MQTT để tiếp nhận dữ liệu. |
   
 ### 2. Phần mềm
 
@@ -80,7 +80,7 @@ Bên cạnh đó, đề tài xuất phát từ việc giải quyết một nhu c
   - Hai nút âm lượng cho phép tăng hoặc giảm mức âm thanh.
   - Nút độ sáng chuyển lần lượt giữa chế độ tự động và ba mức sáng thủ công: thấp, vừa, cao.
   - Nút thiết lập Wi-Fi mở cổng cấu hình mạng bằng điện thoại khi được nhấn giữ trong 5 giây.
-  - Nút chế độ chờ tắt hiển thị và ngừng phát âm thanh nhưng vẫn duy trì kết nối Wi-Fi/MQTT, không ngắt nguồn thật.
+  - Nút bật/tắt hiển thị và ngừng phát âm thanh nhưng vẫn duy trì kết nối Wi-Fi/MQTT, không ngắt nguồn thật.
   - Trong chế độ chờ, thiết bị vẫn tiếp nhận và lưu thông tin giao dịch nhưng không phát thông báo. Khi trở lại hoạt động, màn hình hiển thị giao dịch gần nhất; các giao dịch nhận trong thời gian chờ không tự động được phát lại. Người dùng có thể nhấn Nghe lại để nghe giao dịch gần nhất.
 
 - **Giám sát và sử dụng từ xa:**
